@@ -19,7 +19,9 @@ You can also use following placeholders:
 ## How it works
 
 The Undertale_modded.exe is a DLL Injector for the UNDERTALE_DLL.dll. 
-It starts the real UNDERTALE.exe in your root folder of Undertale and a short time after it attaches the DLL to the running UNDERTALE Process. 
+It starts the real UNDERTALE.exe in your root folder of Undertale and a short time after it attaches the DLL to the running UNDERTALE Process.  
+  
+To get the needed Values UndertaleDRP reads out the memory of the running Undertale Process so it can be used via. the placeholders above.
 
 ## Disclaimer
 
